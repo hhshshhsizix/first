@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//linux做出的修改
 void sort(int arr[], int size)
 {
     int tmp = 0;
