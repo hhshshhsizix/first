@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
 //linux做出的修改
-void sort(int arr[], int size)
+void sort(int arr[], int size) 
 {
     int tmp = 0;
     for (int i = 0; i < size-1; ++i)
       {
+            //win做出修改从大到小排序
             for (int j = 0; j < size-1; ++j)
             {
-                if (arr[j] > arr[j+1])
+                if (arr[j] < arr[j+1])
                     {
                         tmp = arr[j];
                         arr[j] = arr[j+1];
